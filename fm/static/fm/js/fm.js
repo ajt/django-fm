@@ -196,7 +196,7 @@
                 var params = {
                     url: options.url,
                     type: form.attr('method').toUpperCase(),
-                    dataType: "json"
+                    dataType: "json",
                     success: function (data) {
                         process_response_data(data, options);
                     },
