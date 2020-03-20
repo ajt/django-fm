@@ -122,7 +122,7 @@ class AjaxUpdateView(AjaxFormMixin, UpdateView):
     template_name = DEFAULT_FORM_TEMPLATE
 
 
-class AjaxDeleteView(JsonResponseMixin, DeleteView):
+class AjaxDeleteView(JSONResponseMixin, DeleteView):
 
     def pre_delete(self):
         pass
